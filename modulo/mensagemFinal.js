@@ -6,7 +6,7 @@
  *********************************************************************************************************/
 function mensagemFinal(nomeCliente, nomeproduto, nunCapitalInicial, nunJurosAnual, nunVezesJuros, numTempoAnos, TotalJuros) {
     // Fraze que deve ser mostrada
-    let teste = `******************* Viva Moda *******************\n
+    let mensagemFinal1 = `******************* Viva Moda *******************\n
     Muito obrigado por realizar a sua compra conosco Sr(a)${nomeCliente}\n
     A compra do produto: ${nomeproduto}, tem um valor de: ${nunCapitalInicial}R$\n
     A sua compra será parcelada em ${nunJurosAnual} vezes e o Sr(a) pagará: ${TotalJuros}\n
@@ -14,7 +14,7 @@ function mensagemFinal(nomeCliente, nomeproduto, nunCapitalInicial, nunJurosAnua
     Muito obrigado por escolher a Viva Moda.\n
     ******************************************************* `
 
-    return teste
+    return mensagemFinal1
 }
 module.exports = {
     mensagemFinal
