@@ -5,7 +5,7 @@
  * Versão: 1.1
  *********************************************************************************************************/
 function mensagemFinal(nomeCliente, nomeproduto, nunCapitalInicial, nunJurosAnual, nunVezesJuros, numTempoAnos, TotalJuros) {
-    
+    // Fraze que deve ser mostrada
     let teste = `******************* Viva Moda *******************\n
     Muito obrigado por realizar a sua compra conosco Sr(a)${nomeCliente}\n
     A compra do produto: ${nomeproduto}, tem um valor de: ${nunCapitalInicial}R$\n
